@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B50E1A61C9738F500038568 /* LPSCurrentState.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B50E1A51C9738F500038568 /* LPSCurrentState.m */; };
 		60D60712197C369000A4DE1D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60D60711197C369000A4DE1D /* Foundation.framework */; };
 		60D60714197C369000A4DE1D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60D60713197C369000A4DE1D /* CoreGraphics.framework */; };
 		60D60716197C369000A4DE1D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60D60715197C369000A4DE1D /* UIKit.framework */; };
@@ -49,6 +50,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B50E1A41C9738F500038568 /* LPSCurrentState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LPSCurrentState.h; path = ../Images/LPSCurrentState.h; sourceTree = "<group>"; };
+		1B50E1A51C9738F500038568 /* LPSCurrentState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LPSCurrentState.m; path = ../Images/LPSCurrentState.m; sourceTree = "<group>"; };
 		60D6070E197C369000A4DE1D /* PoliceSketch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PoliceSketch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60D60711197C369000A4DE1D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		60D60713197C369000A4DE1D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -146,6 +149,8 @@
 				60D60723197C369000A4DE1D /* Main.storyboard */,
 				60D60726197C369000A4DE1D /* LPSViewController.h */,
 				60D60727197C369000A4DE1D /* LPSViewController.m */,
+				1B50E1A41C9738F500038568 /* LPSCurrentState.h */,
+				1B50E1A51C9738F500038568 /* LPSCurrentState.m */,
 				60D60729197C369000A4DE1D /* Images.xcassets */,
 				60D60718197C369000A4DE1D /* Supporting Files */,
 			);
@@ -304,6 +309,7 @@
 				60D60722197C369000A4DE1D /* LPSAppDelegate.m in Sources */,
 				60D6071E197C369000A4DE1D /* main.m in Sources */,
 				60D60728197C369000A4DE1D /* LPSViewController.m in Sources */,
+				1B50E1A61C9738F500038568 /* LPSCurrentState.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +428,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PoliceSketch/PoliceSketch-Prefix.pch";
 				INFOPLIST_FILE = "PoliceSketch/PoliceSketch-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -435,6 +442,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PoliceSketch/PoliceSketch-Prefix.pch";
 				INFOPLIST_FILE = "PoliceSketch/PoliceSketch-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

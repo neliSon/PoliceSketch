@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "LPSCurrentState.h"
 
 @interface LPSViewController : UIViewController
+
+@property (nonatomic) LPSCurrentState *currentState;
+@property (weak, nonatomic) IBOutlet UIImageView *eyeImageView;
+@property (weak, nonatomic) IBOutlet UIImageView *noseImageView;
+@property (weak, nonatomic) IBOutlet UIImageView *mouthImageView;
 
 @end
